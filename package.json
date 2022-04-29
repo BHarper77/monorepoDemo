@@ -1,0 +1,18 @@
+{
+	"name": "monorepodemo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "ts-node packages/core/src/index.ts",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc -b --verbose tsconfig.build.json"
+	},
+	"author": "",
+	"license": "ISC",
+	"workspaces": [
+		"packages\\api",
+		"packages\\core",
+		"packages\\shared"
+	]
+}

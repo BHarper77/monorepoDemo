@@ -1,0 +1,13 @@
+{
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+	  "rootDir": "./src",
+	  "outDir": "./dist",
+	  "baseUrl": ".",
+	  "paths": {
+		"@retailer-api/shared": ["../shared/src/*.ts"]
+		}
+	},
+	"references": [{ "path": "../shared/" }],
+	"exclude": ["dist"]
+}
