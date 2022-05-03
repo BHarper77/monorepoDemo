@@ -5,7 +5,7 @@
 	  "outDir": "./dist",
 	  "baseUrl": ".",
 	  "paths": {
-		"@retailer-api/shared": ["../shared/src/*.ts"]
+		"@retailer-api/shared": ["../shared/src/index.ts"]
 		}
 	},
 	"references": [{ "path": "../shared/" }],
