@@ -5,6 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "npm run build:shared && ts-node packages/core/src/index.ts",
+		"npm live": "node packages/core/src/index.js",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "tsc -b --verbose tsconfig.build.json",
 		"build:shared": "tsc -b packages/shared/tsconfig.json",
